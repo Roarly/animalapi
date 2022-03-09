@@ -1,0 +1,12 @@
+<template>
+<div class="container">
+    <div class="pt-20 ">
+        
+        <div class="pt-20 text-xl"><h1 class="pb-8 font-semibold">Hello welcome to the Cool Candy shop!</h1>
+        <img class="float-left rounded-2xl hover:scale-150" src="/images/chochome.jpg" width="300" height="300"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in vulputate arcu. Sed volutpat ipsum tincidunt massa vehicula elementum. Sed blandit, ipsum ultricies viverra mattis, augue quam sagittis nulla, ut aliquam erat enim in augue. Maecenas accumsan nec nisl eget pretium. Donec rutrum felis in quam tempor, vel consequat dui euismod. Praesent elementum libero diam, sed dapibus velit lobortis sed. Donec a porta purus. Proin ut risus posuere, eleifend libero id, consectetur dolor. Vivamus lacinia, velit eu imperdiet tristique, justo elit faucibus sapien, non placerat ex nisi in nibh. Proin eget massa sem.Mauris egestas consectetur nulla at fermentum. Nulla euismod sed lacus sed laoreet. Integer vel ligula urna. Integer blandit pharetra elit. Nam volutpat venenatis ipsum, at efficitur justo rutrum a. In in dui at elit tincidunt vestibulum non ut sem. Sed non nulla bibendum ex pulvinar suscipit. Nulla eget lacus et odio pretium convallis.</p>
+        </div>
+        <div class="pt-20 text-xl"><img class="float-right rounded-2xl hover:scale-150" src="/images/sweets.jpg" width="300" height="300"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in vulputate arcu. Sed volutpat ipsum tincidunt massa vehicula elementum. Sed blandit, ipsum ultricies viverra mattis, augue quam sagittis nulla, ut aliquam erat enim in augue. Maecenas accumsan nec nisl eget pretium. Donec rutrum felis in quam tempor, vel consequat dui euismod. Praesent elementum libero diam, sed dapibus velit lobortis sed. Donec a porta purus. Proin ut risus posuere, eleifend libero id, consectetur dolor. Vivamus lacinia, velit eu imperdiet tristique, justo elit faucibus sapien, non placerat ex nisi in nibh. Proin eget massa sem.Mauris egestas consectetur nulla at fermentum. Nulla euismod sed lacus sed laoreet. Integer vel ligula urna. Integer blandit pharetra elit. Nam volutpat venenatis ipsum, at efficitur justo rutrum a. In in dui at elit tincidunt vestibulum non ut sem. Sed non nulla bibendum ex pulvinar suscipit. Nulla eget lacus et odio pretium convallis.</p></div>
+       
+    </div>
+</div>
+</template>
