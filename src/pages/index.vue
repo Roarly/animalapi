@@ -19,9 +19,9 @@ const searchItem = ref("");
     />
     <div class="grid grid-cols-2 gap-16 pt-16">
       <div v-for="(anime, index) in animes" :key="index">
-        <p>
-          {{ anime.anime }}
-        </p>
+        <p class="font-semibold">{{ "Anime : " + anime.anime }}</p>
+        <p class="font-semibold">{{ "Character : " + anime.character}}</p>
+        <p class="font-semibold">{{ "Quote : " + anime.quote }}</p>
       </div>
     </div>
   </div>

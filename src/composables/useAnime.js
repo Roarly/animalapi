@@ -8,21 +8,31 @@ const api = axios.create({
     baseURL: "https://animechan.vercel.app/api/random",
 });
 
+// const getRandomAnime = async () => {
+//   return await api.get();
+// };
+
+// export const useAnime =  async () => {
+//   const response = await getRandomAnime();
+//   console.log(response.data.anime);
+
+//   return { animes };
+// };
 
 const getRandomAnime = async () => {
-    const response = await api.get();
+  const response = await api.get();
+  if (response.status === 200) {
+    animes.value = [response.data];
+  }
+};
+export const useAnime = () => {
+  getRandomAnime();
+  const search = async (searchItem) => {
+    const response = await api.get(`https://animechan.vercel.app/api/quotes/anime?title=${searchItem}`);
+
     if (response.status === 200) {
-      animes.value = [response.data];
+      animes.value = response.data;
     }
   };
-  export const useAnime = () => {
-    getRandomAnime();
-    const search = async (searchItem) => {
-      const response = await api.get(`https://animechan.vercel.app/api/quotes/anime?title=${searchItem}`);
-  
-      if (response.status === 200) {
-        animes.value = response.data;
-      }
-    };
-    return { animes, search };
-  };
+  return { animes, search };
+};
